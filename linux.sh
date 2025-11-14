@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 set -euo pipefail
 
 ########################################
@@ -198,3 +198,4 @@ fi
 
 echo
 echo "Script concluído."
+
