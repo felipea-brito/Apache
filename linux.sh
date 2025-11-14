@@ -1,5 +1,4 @@
 #!/bin/bash
-set -euo pipefail
 
 ########################################
 # 1) LINK DA PÁGINA (INDEX_URL)
@@ -197,5 +196,6 @@ fi
 
 echo
 echo "Script concluído."
+
 
 
