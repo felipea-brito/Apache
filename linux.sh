@@ -184,7 +184,3 @@ fi
 
 echo
 echo "Script concluído."
-
-
-
-
