@@ -4,7 +4,6 @@ set -euo pipefail
 ########################################
 # 1) LINK DA PÁGINA (INDEX_URL)
 ########################################
-
 # Pode usar:
 #   INDEX_URL="https://meu-site.com/index.html" ./setup_apache.sh
 #   ./setup_apache.sh https://meu-site.com/index.html
@@ -198,4 +197,5 @@ fi
 
 echo
 echo "Script concluído."
+
 
