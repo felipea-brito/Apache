@@ -42,18 +42,6 @@ if command -v apt-get >/dev/null 2>&1; then
   # Se houver erro de repositório, é ali que você ajusta as entradas.
   PKG_INSTALL="apt-get update -y && apt-get install -y"
 
-elif command -v dnf >/dev/null 2>&1; then
-  # Fedora/RHEL mais novos
-  APACHE_PKG="httpd"
-  APACHE_SVC="httpd"
-  PKG_INSTALL="dnf install -y"
-
-elif command -v yum >/dev/null 2>&1; then
-  # RHEL/CentOS antigos
-  APACHE_PKG="httpd"
-  APACHE_SVC="httpd"
-  PKG_INSTALL="yum install -y"
-
 else
   echo "Não foi possível detectar apt-get/dnf/yum. Ajuste o script para sua distro." >&2
   exit 1
@@ -196,6 +184,7 @@ fi
 
 echo
 echo "Script concluído."
+
 
 
 
